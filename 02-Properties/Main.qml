@@ -13,7 +13,6 @@ Window {
 
         Text {
             text: "Hello World"
-            // Dot notation
             font.pointSize: 40
             anchors.centerIn: image
             color: "#00414A"
@@ -25,3 +24,14 @@ Window {
 // simple and structured value types have lowercase names.
 // object types have uppercase names.
 // specila value types: list, map, var.
+
+//Text{
+//Dot notation
+// font.pixelSize: 12
+// font.bold: true
+//}
+
+// Text {
+// Group notaion
+// font {pixelSize: 12; bold: true}
+// }
