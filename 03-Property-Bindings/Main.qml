@@ -22,3 +22,13 @@ Window {
         }
     }
 }
+// height:Math.min(parent.width, parent.height) ->height is the minimum width or height of its parent,
+// depending on which value is smaller.
+
+// height:parent.height > 100 ? parent.height:parent.height / 2
+// if the parent height exceeds 100, the rectangle height equals the parent height. otherwise, the rectangle
+// height is half the parent height.
+
+// function getHeight() {
+// return parent.width / 2;
+// }
