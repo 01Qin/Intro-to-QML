@@ -19,7 +19,7 @@ Window {
         width: side; height: side
         color: "#2CDE85"
 
-        MouseArea {
+        MouseArea {// detect clicks on the rectangle.
             anchors.fill: parent
             // This will emit the signal when the mouse is released.
             onReleased: root.deactivated()
