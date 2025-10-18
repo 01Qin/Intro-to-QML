@@ -19,3 +19,8 @@ Window {
         }
     }
 }
+// simple vale types: int, double, string, Bool
+// structured value types: rect, font
+// simple and structured value types have lowercase names.
+// object types have uppercase names.
+// specila value types: list, map, var.
