@@ -13,6 +13,7 @@ Window {
 
         Text {
             text: "Hello World"
+            // Dot notation
             font.pointSize: 40
             anchors.centerIn: image
             color: "#00414A"
