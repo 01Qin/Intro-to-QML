@@ -1,5 +1,6 @@
 import QtQuick
 
+// We define a custom signal, edit the signal handler, and emit the signal when users press a mouse button.
 Window {
     id: window
     width: 640
